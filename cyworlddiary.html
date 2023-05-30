@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>cyworlddiary</title>
+  <script>
+    function commit() {
+      let titlebar = document.querySelector("#oicr").value;
+      let userContent = document.querySelector("#m_txt").value;
+      let uppic = document.querySelector("#picture");
+      let text ="";
+      
+      text += "제목 : "+ titlebar + "\n내용 : " + userContent;
+
+      let newtr = document.createElement("text");
+      newtr.textContent = text;
+
+      let footer = document.querySelector("footer");
+      footer.appendChild(newtr);
+
+      alert("작성되었습니다.")
+    }
+  </script>
+  <link rel="stylesheet" href="./cyworlddiary.css">
+</head>
+<body>
+  <div class="mainbox">
+    <div class="smallbox">
+      <div class="partbox">
+        <p><strong>다이어리</strong></p>
+        <p><a href="cyworlddiary.html">My Diary</a></p>
+      </div>
+      <div class="partbox2">
+        <div class="date1">
+          <script>
+            date = new Date().toLocaleDateString();
+            document.write("오늘의 날짜는 " + date + "입니다");
+          </script>
+          </div>
+          <p>일정/기념일이 없습니다.</p>
+          <input type="text" size="58" id="oicr" placeholder="제목을 입력하세요"><br><br>
+          사진 첨부: <input id="picture" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" value=""><br><br>
+          <div class="textbox">
+            <textarea id="m_txt" name="main_text" rows="10" cols="56"></textarea>
+            <input id="txt" type="submit" name="in" value="글 등록하기" onclick="commit()">
+            <footer></footer>
+          </div>
+
+      </div>
+      <div class="minibox1"><a href="cyworld.html">홈</a></div>
+      <div class="minibox2"><a href="cyworldprofile.html">프로필</a></div>
+      <div class="minibox3"><a href="cyworlddiary.html">다이어리</a></div>
+      <div class="minibox4"><a href="cyworldJB.html">주크박스</a></div>
+      <div class="minibox5"><a href="#">사진첩</a></div>
+      <div class="minibox6"><a href="cyworldguest.html">방명록</a></div>
+    </div>
+  </div>
+</body>
+</html>
