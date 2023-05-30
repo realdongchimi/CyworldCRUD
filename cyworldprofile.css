@@ -1,0 +1,212 @@
+body{
+  size: 100%;
+  width: 750px;
+  height: 450px;
+   background-color: #35403A;
+}
+
+.mainbox  {
+  width: 750px;
+  height: 450px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.smallbox {
+  width: 600px;
+  height: 360px;
+  background-color: rgb(216, 216, 216);
+  position: absolute; 
+  left: 47%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.partbox  {
+  width: 580px;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+  overflow-y: scroll;
+}
+
+.img1 > img  {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: red;
+  animation: move 3s ease infinite;
+}
+
+.img1 > p  {
+  position: absolute;
+  top: 30px;
+  left: 170px;
+}
+
+.img2 > img {
+  position: absolute;
+  top: 150px;
+  left: 30px;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: red;
+  animation: move 3s ease infinite;
+}
+
+.img2 > p  {
+  position: absolute;
+  top: 150px;
+  left: 170px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.minibox1 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 10%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox2 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 25%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox3 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 40%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox4 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 55%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox5 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 70%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox6 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 70%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox1:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox2:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox3:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox4:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox5:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox6:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}

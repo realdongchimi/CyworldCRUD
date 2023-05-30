@@ -1,0 +1,223 @@
+body{
+  size: 100%;
+  width: 750px;
+  height: 450px;
+   background-color: #35403A;
+}
+
+.mainbox  {
+  width: 750px;
+  height: 450px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.smallbox {
+  width: 600px;
+  height: 360px;
+  background-color: rgb(216, 216, 216);
+  position: absolute; 
+  left: 47%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.partbox  {
+  width: 200px;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  left: 20%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.message1 {
+  width: 180px;
+  height: 26px;
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  left: 20%;
+  top: 13%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid  rgb(216, 216, 216);
+}
+
+.rock {
+  align-items: center;
+}
+
+.message2 {
+  width: 180px;
+  height: 250px;
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  left: 20%;
+  top: 57%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid  rgb(216, 216, 216);
+}
+
+.partbox2  {
+  width: 350px;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  left: 68%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.minibox1 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 10%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox2 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 25%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox3 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 40%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox4 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 55%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox5 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 70%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox6 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 70%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox1:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox2:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox3:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox4:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox5:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox6:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}

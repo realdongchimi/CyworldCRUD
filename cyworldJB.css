@@ -1,0 +1,211 @@
+body{
+  size: 100%;
+  width: 750px;
+  height: 450px;
+   background-color: #35403A;
+}
+
+.mainbox  {
+  width: 750px;
+  height: 450px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.smallbox {
+  width: 600px;
+  height: 360px;
+  background-color: rgb(216, 216, 216);
+  position: absolute; 
+  left: 47%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.partbox  {
+  width: 580px;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.minibox1 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 10%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox2 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 25%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox3 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 40%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox4 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 55%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox5 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 70%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox6 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 70%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox1:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox2:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox3:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox4:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox5:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox6:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.music {
+  text-align: center;
+  padding: 20px;
+}
+
+.btn1, .btn2 {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #f1f1f1;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.progress-bar::-webkit-progress-bar {
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.progress-bar::-webkit-progress-value {
+  background-color: #35403A;
+  border-radius: 5px;
+}
