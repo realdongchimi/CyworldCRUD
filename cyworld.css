@@ -1,8 +1,16 @@
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
   size: 100%;
   width: 750px;
   height: 450px;
    background-color: #35403A;
+   font-family: 'GangwonEdu_OTFBoldA';
 }
 
 .mainbox  {
@@ -94,6 +102,7 @@ body{
 a{
   text-decoration: none;
   color: black;
+  font-family: 'GangwonEdu_OTFBoldA';
 }
 
 .minibox1 {
