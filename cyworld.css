@@ -13,14 +13,6 @@ body{
   font-family: 'GangwonEdu_OTFBoldA';
 }
 
-.searchBox {
-position: absolute;
-left: 38%;
-top: 13%;
-margin: auto;
-padding: 5px;
-}
-
 .mainbox  {
   width: 750px;
   height: 450px;
