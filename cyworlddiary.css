@@ -1,0 +1,222 @@
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  font-family: 'GangwonEdu_OTFBoldA';
+  size: 100%;
+  width: 750px;
+  height: 450px;
+   background-color: #35403A;
+}
+
+.mainbox  {
+  width: 750px;
+  height: 450px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 50%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.smallbox {
+  width: 600px;
+  height: 360px;
+  background-color: rgb(216, 216, 216);
+  position: absolute; 
+  left: 47%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.partbox  {
+  width: 100px;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  left: 12%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.partbox > p  {
+  text-align: center;
+}
+
+.partbox2  {
+  width: 450px;
+  height: 330px;
+  background-color: rgb(255, 255, 255);
+  position: absolute; 
+  left: 60%; 
+  top: 50%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+.date1  {
+  margin-top: 10px;
+  border: 3px solid rgb(216, 216, 216);
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.partbox2 > p {
+  font-size: 10px;
+}
+
+footer{
+  text-align: center;
+  margin: 30px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox1 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 10%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox2 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 25%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox3 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 40%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox4 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 55%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox5 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 70%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox6 {
+  width: 70px;
+  height: 30px;
+  background-color: #35403A;
+  position: absolute; 
+  left: 106.5%; 
+  top: 70%; 
+  transform: translate(-50%, -50%);
+  margin: auto;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid rgb(216, 216, 216);
+}
+
+.minibox1:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox2:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox3:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox4:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox5:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.minibox6:hover {
+  background-color: rgb(216, 216, 216);
+  width: 70px;
+  height: 30px;
+  border-radius: 10px;
+}
