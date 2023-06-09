@@ -8,21 +8,43 @@
   <link rel="stylesheet" href="./cyworld.css">
 </head>
 <body>
+  <form>
+    <div class="searchBox">
+      <label>다음/네이버/구글: <input type="text" id="searchword" placeholder="검색하세요." /></label>
+      <button onClick="search()">이동</button>
+    </div>
+  </form>
   <div class="mainbox">
     <div class="smallbox">
       <div class="partbox"></div>
-        <div class="message1">
-          <div class="rock">돌잡이 락스타</div>
-        </div>
-        <div class="message2"></div>
+      <div class="message1">
+        <div class="rock">돌잡이 락스타</div>
+      </div>
+      <div class="message2"></div>
       <div class="partbox2"></div>
       <div class="minibox1"><a href="cyworld.html">홈</a></div>
       <div class="minibox2"><a href="cyworldprofile.html">프로필</a></div>
       <div class="minibox3"><a href="cyworlddiary.html">다이어리</a></div>
       <div class="minibox4"><a href="cyworldJB.html">주크박스</a></div>
-      <div class="minibox5"><a href="#">사진첩</a></div>
-      <div class="minibox6"><a href="cyworldguest.html">방명록</a></div>
+      <div class="minibox5"><a href="cyworldguest.html">방명록</a></div>
     </div>
   </div>
+  <script>
+    function search() {
+      var word = document.getElementById("searchword").value;
+      var google = ["구글", "google", "Google", "GOOGLE"];
+      var naver = ["네이버", "naver", "Naver", "NAVER"];
+      var daum = ["다음", "Daum", "daum", "DAUM"];
+
+      if (google.includes(word)) {
+        window.location.href = "http://google.com";
+      } else if (naver.includes(word)) {
+        window.location.href = "http://naver.com";
+      } else if (daum.includes(word)) {
+        window.location.href = "http://daum.net";
+      }
+        alert("잠시만 기다려주세요..");
+    }
+  </script>
 </body>
 </html>
