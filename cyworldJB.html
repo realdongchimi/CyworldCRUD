@@ -8,6 +8,12 @@
   <link rel="stylesheet" href="./cyworldprofile.css">
 </head>
 <body>
+  <form>
+    <div class="searchBox">
+      <label>다음/네이버/구글: <input type="text" id="searchword" placeholder="검색하세요." /></label>
+      <button onClick="search()">이동</button>
+    </div>
+  </form>
   <div class="mainbox">
     <div class="smallbox">
       <div class="partbox">
@@ -153,50 +159,11 @@
       <div class="minibox2"><a href="cyworldprofile.html">프로필</a></div>
       <div class="minibox3"><a href="cyworlddiary.html">다이어리</a></div>
       <div class="minibox4"><a href="cyworldJB.html">주크박스</a></div>
-      <div class="minibox5"><a href="#">사진첩</a></div>
       <div class="minibox6"><a href="cyworldguest.html">방명록</a></div>
     </div>
   </div>
 
-  <script>
-    let audio;
-    let progress;
-  
-    document.querySelector(".btn1").addEventListener("click", function () {
-      if (audio && !audio.paused) {
-        audio.pause();
-        return;
-      }
-  
-      audio = new Audio("Wave To Earth - Seasons.mp3");
-      audio.loop = false;
-      audio.volume = 0.5;
-      audio.play();
-  
-      progress = setInterval(updateProgress, 100);
-    });
-  
-    document.querySelector(".btn2").addEventListener("click", function () {
-      if (audio && !audio.paused) {
-        audio.pause();
-        return;
-      }
-  
-      audio = new Audio("잔나비 - 환생 (윤종신).mp3");
-      audio.loop = true;
-      audio.volume = 0.5;
-      audio.play();
-  
-      progress = setInterval(updateProgress, 100);
-    });
-  
-    function updateProgress() {
-      if (audio && audio.duration) {
-        const progressBar = document.querySelector(".progress-bar");
-        progressBar.value = (audio.currentTime / audio.duration) * 100;
-      }
-    }
-  </script>
+  <script src="cyworldJB.js"></script>
   
 </body>
 </html>

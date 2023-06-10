@@ -1,14 +1,38 @@
+@font-face {
+  font-family: 'GangwonEdu_OTFBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body{
   size: 100%;
   width: 750px;
   height: 450px;
-   background-color: #35403A;
+  background-color: #816797;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+.searchBox {
+position: absolute;
+left: 38%;
+top: 13%;
+margin: auto;
+padding: 5px;
+}
+
+.searchBox {
+position: absolute;
+left: 38%;
+top: 13%;
+margin: auto;
+padding: 5px;
 }
 
 .mainbox  {
   width: 750px;
   height: 450px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 50%; 
   top: 50%; 
@@ -60,7 +84,8 @@ body{
 }
 
 .rock {
-  align-items: center;
+  display: flex;
+  justify-content: center;
 }
 
 .message2 {
@@ -92,14 +117,17 @@ body{
 }
 
 a{
+  display: flex;
+  justify-content: center;
   text-decoration: none;
-  color: black;
+  color: whitesmoke;
+  font-family: 'GangwonEdu_OTFBoldA';
 }
 
 .minibox1 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 10%; 
@@ -113,7 +141,7 @@ a{
 .minibox2 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 25%; 
@@ -127,7 +155,7 @@ a{
 .minibox3 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 40%; 
@@ -141,7 +169,7 @@ a{
 .minibox4 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 55%; 
@@ -155,7 +183,7 @@ a{
 .minibox5 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 70%; 
@@ -169,7 +197,7 @@ a{
 .minibox6 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 70%; 
