@@ -92,6 +92,18 @@ body{
   align-item: center;
 }
 
+.imgsrc1 {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
+.imgsrc2 {
+  border-radius: 100%;
+  width: 150px;
+  height: 150px;
+}
+
 .img1 {
   text-align: center;
 }
