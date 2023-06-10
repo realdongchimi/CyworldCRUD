@@ -10,7 +10,7 @@ body{
   size: 100%;
   width: 750px;
   height: 450px;
-   background-color: #35403A;
+  background-color: #816797;
 }
 
 .searchBox {
@@ -24,7 +24,7 @@ body{
 .mainbox  {
   width: 750px;
   height: 450px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 50%; 
   top: 50%; 
@@ -81,9 +81,12 @@ body{
 }
 
 a {
-  text-decoration: none;
-  color: black;
   font-family: 'GangwonEdu_OTFBoldA';
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: whitesmoke;
 }
 
 .date1  {
@@ -106,7 +109,7 @@ footer{
 .minibox1 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 10%; 
@@ -120,7 +123,7 @@ footer{
 .minibox2 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 25%; 
@@ -134,7 +137,7 @@ footer{
 .minibox3 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 40%; 
@@ -148,7 +151,7 @@ footer{
 .minibox4 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 55%; 
@@ -162,7 +165,7 @@ footer{
 .minibox5 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 70%; 
@@ -176,7 +179,7 @@ footer{
 .minibox6 {
   width: 70px;
   height: 30px;
-  background-color: #35403A;
+  background-color: #816797;
   position: absolute; 
   left: 106.5%; 
   top: 70%; 
