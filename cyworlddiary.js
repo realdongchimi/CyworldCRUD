@@ -2,19 +2,48 @@ function commit() {
   var titlebar = document.querySelector("#oicr").value;
   var userContent = document.querySelector("#m_txt").value;
   var uppic = document.querySelector("#picture");
-  var text ="";
   
-  text += "제목 : "+ titlebar + "\n내용 : " + userContent;
+  var newRow = document.createElement("tr");
+  var titleCell = document.createElement("td");
+  var contentCell = document.createElement("td");
 
-  var newtr = document.createElement("text");
-  newtr.textContent = text;
+  titleCell.textContent = titlebar;
+  contentCell.textContent = userContent;
 
-  var footer = document.querySelector("footer");
-  footer.appendChild(newtr);
+  newRow.appendChild(titleCell);
+  newRow.appendChild(contentCell);
+
+  var diaryTableBody = document.getElementById("diaryTableBody");
+  diaryTableBody.appendChild(newRow);
 
   alert("작성되었습니다.");
 }
 
+function deleteCommit() {
+  var diaryTableBody = document.getElementById("diaryTableBody");
+  var rows = diaryTableBody.getElementsByTagName("tr");
+
+  if (rows.length === 0) {
+    alert("삭제할 항목이 없습니다.");
+    return;
+  }
+
+  var index = prompt("삭제할 항목의 글 번호를 입력하세요 (0부터 시작):");
+
+  if (index === null) {
+    return;
+  }
+
+  index = parseInt(index);
+
+  if (isNaN(index) || index < 0 || index >= rows.length) {
+    alert("유효하지 않은 항목입니다.");
+    return;
+  }
+
+  diaryTableBody.removeChild(rows[index]);
+  alert("선택한 항목을 삭제했습니다.");
+}
 
 function search() {
   var word = document.getElementById("searchword").value;
@@ -29,5 +58,6 @@ function search() {
   } else if (daum.includes(word)) {
     window.location.href = "http://daum.net";
   }
-    alert("잠시만 기다려주세요..");
+
+  alert("잠시만 기다려주세요..");
 }
