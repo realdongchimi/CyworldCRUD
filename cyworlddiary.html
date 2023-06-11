@@ -47,47 +47,4 @@
     </div>
     <script src="cyworlddiary.js"></script>
   </body>
-
   </html>
-</head>
-<body>
-  <form>
-    <div class="searchBox">
-      <label>다음/네이버/구글: <input type="text" id="searchword" placeholder="검색하세요." /></label>
-      <button onClick="search()">이동</button>
-    </div>
-  </form>
-  <div class="mainbox">
-    <div class="smallbox">
-      <div class="partbox">
-        <p><strong>다이어리</strong></p>
-        <p><a href="cyworlddiary.html" style="color: rgb(66, 66, 66);">My Diary</a></p>
-      </div>
-      <div class="partbox2">
-        <div class="date1">
-          <script>
-            date = new Date().toLocaleDateString();
-            document.write("오늘의 날짜는 " + date + "입니다");
-          </script>
-          </div>
-          <p>일정/기념일이 없습니다.</p>
-          <input type="text" size="58" id="oicr" placeholder="제목을 입력하세요"><br><br>
-          사진 첨부: <input id="picture" type="file" accept="image/jpg,image/jpeg,image/png,image/gif" value=""><br><br>
-          <div class="textbox">
-            <textarea id="m_txt" name="main_text" rows="10" cols="56"></textarea>
-            <input id="txt" type="submit" name="in" value="글 등록하기" onclick="commit()">
-            <footer></footer>
-          </div>
-
-      </div>
-      <div class="minibox1"><a href="cyworld.html">홈</a></div>
-      <div class="minibox2"><a href="cyworldprofile.html">프로필</a></div>
-      <div class="minibox3"><a href="cyworlddiary.html">다이어리</a></div>
-      <div class="minibox4"><a href="cyworldJB.html">주크박스</a></div>
-      <div class="minibox5"><a href="cyworldguest.html">방명록</a></div>
-      <div class="minibox6"><a href="cyworldsecret.html">비밀 게시판</a></div>
-    </div>
-  </div>
-</body>
-</html>
-

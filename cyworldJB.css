@@ -267,45 +267,6 @@ a {
 
 .progress-bar::-webkit-progress-value {
   background-color: #816797;
-}
-
-.progress-bar::-moz-progress-bar {
-  background-color: #816797;
-}
-
-.progress-bar::-ms-fill {
-  background-color: #816797;
-}
-
-.progress-bar2 {
-  width: 100%;
-  height: 10px;
-  background-color: #ddd;
-  border-radius: 5px;
-}
-
-
-.progress-bar2::-webkit-progress-bar {
-  background-color: #ddd;
-  border-radius: 5px;
-}
-
-.progress-bar2::-webkit-progress-value {
-  background-color: #816797;
-}
-
-.progress-bar2::-moz-progress-bar {
-  background-color: #816797;
-}
-
-.progress-bar2::-ms-fill {
-  background-color: #816797;
-}
-
-.progress-bar2 {
-  width: 100%;
-  height: 10px;
-  background-color: #ddd;
   border-radius: 5px;
 }
 
@@ -325,6 +286,4 @@ a {
 .progress-bar2::-webkit-progress-value {
   background-color: #816797;
   border-radius: 5px;
-}
-
 }
