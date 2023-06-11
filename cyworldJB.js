@@ -15,9 +15,15 @@ var progress;
       progress = setInterval(updateProgress2, 100);
     });
   
+
+    function updateProgress() {
+      if (audio && audio.duration) {
+        const progressBar = document.querySelector(".progress-bar");
+        
     function updateProgress2() {
       if (audio && audio.duration) {
         const progressBar = document.querySelector(".progress-bar2");
+
         progressBar.value = (audio.currentTime / audio.duration) * 100;
       }
     }
