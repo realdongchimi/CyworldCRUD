@@ -25,23 +25,39 @@ function tableWrite() {
   newtr.append(td2);
   newtr.append(td3);
   newtr.append(td4);
+
+  newtr.addEventListener("click", function () {
+    var editForm = document.createElement("tr");
+    var editTd1 = document.createElement("td");
+    var editTd2 = document.createElement("td");
+    var editTd3 = document.createElement("td");
+    var editTd4 = document.createElement("td");
+    var editBtn = document.createElement("button");
+
+    editForm.appendChild(editTd1);
+    editForm.appendChild(editTd2);
+    editForm.appendChild(editTd3);
+    editForm.appendChild(editTd4);
+    editForm.appendChild(editBtn);
+
+    editTd1.innerHTML = td1.innerHTML;
+    editTd2.innerHTML = '<input type="text" value="' + td2.innerText + '">';
+    editTd3.innerHTML = '<input type="text" value="' + td3.innerText + '">';
+    editTd4.innerHTML = td4.innerHTML;
+    editBtn.innerText = "완료";
+
+    editBtn.addEventListener("click", function () {
+      td2.innerText = editTd2.querySelector("input").value;
+      td3.innerText = editTd3.querySelector("input").value;
+
+      newtr.style.display = "table-row";
+      editForm.remove();
+    });
+
+    newtr.style.display = "none";
+    tbody.insertBefore(editForm, newtr.nextSibling);
+  });
+
   tbody.appendChild(newtr);
-
-  alert("작성되었습니다.")
-}
-
-function search() {
-  var word = document.getElementById("searchword").value;
-  var google = ["구글", "google", "Google", "GOOGLE"];
-  var naver = ["네이버", "naver", "Naver", "NAVER"];
-  var daum = ["다음", "Daum", "daum", "DAUM"];
-
-  if (google.includes(word)) {
-    window.location.href = "http://google.com";
-  } else if (naver.includes(word)) {
-    window.location.href = "http://naver.com";
-  } else if (daum.includes(word)) {
-    window.location.href = "http://daum.net";
-  }
-    alert("잠시만 기다려주세요..");
+  alert("작성되었습니다.");
 }

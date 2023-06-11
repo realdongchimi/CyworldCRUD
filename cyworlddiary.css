@@ -25,6 +25,30 @@ input {
   background-color: rgb(216, 216, 216);
 }
 
+table {
+  text-align: center;
+  margin-bottom: 10px;
+  width: 100%;
+  font-family: 'GangwonEdu_OTFBoldA';
+}
+
+.td1, .td2 {
+  background-color: rgb(216, 216, 216);
+  color: #816797;
+}
+
+#pic {
+  width: 350px;
+  height: 24px;
+  font-size: 15px;
+  font-family: 'GangwonEdu_OTFBoldA';
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(216, 216, 216);
+}
+
 #oicr {
   width: 400px;
   height: 24px;
@@ -152,9 +176,9 @@ a {
 }
 
 footer{
+  margin-top: 20px;
   text-align: center;
-  margin: 30px;
-  border: 3px solid rgb(216, 216, 216);
+  border: 0;
 }
 
 .minibox1 {
