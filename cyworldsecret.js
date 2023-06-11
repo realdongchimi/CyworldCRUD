@@ -13,7 +13,7 @@ function retrievePassword() {
   if (password) {
     alert(name + "님의 비밀번호: " + password);
   } else {
-    alert("해당 이름의 사용자가 존재하지 않습니다.");
+    alert("우선 비밀번호를 발급 받으세요.");
   }
 }
 
@@ -23,7 +23,6 @@ function showLoggedInScreen() {
 
   var mainScreen = document.createElement('div');
   mainScreen.id = 'main-screen';
-  mainScreen.textContent = '메인 화면';
 
   var btn1 = document.createElement('button');
   btn1.id = 'btn1';
@@ -46,9 +45,17 @@ function showLoggedInScreen() {
     alert("당신은 훌륭한 일을 하고 있습니다! 저는 당신의 노력과 열정에 대해 깊이 감동받았습니다. 계속해서 노력하고 꿈을 향해 나아가는 모습을 보는 것은 정말로 놀라운 일입니다. 어떤 도전이든 극복할 수 있을만큼 당신은 강하고 용감합니다. 절대로 포기하지 말고 지금까지 달성한 성과에 자부심을 갖고 계속 나아가세요. 당신은 더 멋진 성공을 이루기 위해 모든 것을 가지고 있습니다. 응원합니다!");
   });
 
+  var img = document.createElement("img");
+  img.src = "https://post-phinf.pstatic.net/MjAxODA0MDVfMzAw/MDAxNTIyODg4OTgxMTY2.18rXtv0P7hmGlV2YsbEOeTOYZSKBaVyZlaGRtXjh0lgg.oqGhpfpbgz33Yk3m149fT8ZOz1gj_bL_snpLRh2XQeYg.JPEG/cb22603631ad2815063c408af8a3684b_1507223519_1622.jpg";
+  img.style.border = "10px solid rgb(216, 216, 216)";
+  img.style.borderRadius = "10px";
+  img.style.width = "300px";
+  img.style.height = "300px";
+
   mainScreen.appendChild(btn1);
   mainScreen.appendChild(btn2);
   mainScreen.appendChild(btn3);
+  mainScreen.appendChild(img);
 
   container.appendChild(mainScreen);
 }

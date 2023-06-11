@@ -1,20 +1,7 @@
-function commit() {
-  var titlebar = document.querySelector("#oicr").value;
-  var userContent = document.querySelector("#m_txt").value;
-  var uppic = document.querySelector("#picture");
-  var text ="";
-  
-  text += "제목 : "+ titlebar + "\n내용 : " + userContent;
-
-  var newtr = document.createElement("text");
-  newtr.textContent = text;
-
-  var footer = document.querySelector("footer");
-  footer.appendChild(newtr);
-
-  alert("작성되었습니다.");
+function myfunction() {
+  var a = document.getElementById("value").value;
+  document.getElementById("value2").innerHTML = a;
 }
-
 
 function search() {
   var word = document.getElementById("searchword").value;

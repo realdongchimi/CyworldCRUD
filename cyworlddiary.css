@@ -13,6 +13,57 @@ body{
   background-color: #816797;
 }
 
+input {
+  width: 150px;
+  height: 24px;
+  font-size: 15px;
+  font-family: 'GangwonEdu_OTFBoldA';
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(216, 216, 216);
+}
+
+#oicr {
+  width: 400px;
+  height: 24px;
+  font-size: 15px;
+  font-family: 'GangwonEdu_OTFBoldA';
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(216, 216, 216);
+}
+
+#picture {
+  width: 320px;
+  height: 24px;
+  font-size: 15px;
+  font-family: 'GangwonEdu_OTFBoldA';
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(216, 216, 216);
+}
+
+button {
+  font-family: 'GangwonEdu_OTFBoldA';
+  color: #816797;
+  background-color:  rgb(216, 216, 216);
+  border-radius: 30%;
+  width: 36px;
+  height: 28px;
+  border: none;
+}
+
+.searchBox > label {
+  font-weight: bold;
+  color: rgb(216, 216, 216);
+}
+
 .searchBox {
   position: absolute;
   left: 38%;
