@@ -1,11 +1,11 @@
-var passwords = {};
+   var passwords = {};
 
-function generatePassword() {
-  var name = document.getElementById("nameInput").value;
-  var password = Math.random().toString(36).substr(2, 6);
-  passwords[name] = password;
-  alert("비밀번호가 생성되었습니다!");
-}
+    function generatePassword() {
+      var name = document.getElementById("nameInput").value;
+      var password = Math.random().toString(36).substr(2, 6);
+      passwords[name] = password;
+      alert("비밀번호가 생성되었습니다!");
+    }
 
 function retrievePassword() {
   var name = document.getElementById("nameInput").value;
@@ -17,14 +17,14 @@ function retrievePassword() {
   }
 }
 
-function showLoggedInScreen() {
-  var container = document.getElementsByClassName('container')[0];
-  container.innerHTML = '';
-
-  var mainScreen = document.createElement('div');
-  mainScreen.id = 'main-screen';
-
-  var btn1 = document.createElement('button');
+    function retrievePassword() {
+      var container = document.getElementById('container')[0];
+      container.innerHTML = '';
+      
+      var mainScreen = document.createElement('div');
+      mainScreen.id = 'main-screen';
+      
+      var btn1 = document.createElement('button');
   btn1.id = 'btn1';
   btn1.textContent = '꼬옥 안아주기';
   btn1.addEventListener('click', function() {
