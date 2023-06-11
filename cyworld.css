@@ -13,6 +13,33 @@ body{
   font-family: 'GangwonEdu_OTFBoldA';
 }
 
+input {
+  width: 150px;
+  height: 24px;
+  font-size: 15px;
+  font-family: 'GangwonEdu_OTFBoldA';
+  border: 0;
+  border-radius: 15px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(216, 216, 216);
+}
+
+button {
+  font-family: 'GangwonEdu_OTFBoldA';
+  color: #816797;
+  background-color:  rgb(216, 216, 216);
+  border-radius: 30%;
+  width: 36px;
+  height: 28px;
+  border: none;
+}
+
+.searchBox > label {
+  font-weight: bold;
+  color: rgb(216, 216, 216);
+}
+
 .searchBox {
 position: absolute;
 left: 38%;
@@ -248,4 +275,25 @@ a{
   width: 70px;
   height: 30px;
   border-radius: 10px;
+}
+
+.minihome {
+  position: relative;
+  z-index: 3;
+  left: 240px;
+  top: 160px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.study {
+  font-size: 30px; 
+  line-height: 15px; 
+  font-style: italic; 
+  color: gray; 
+  position: relative; 
+  z-index: 5; 
+  left: 390px; 
+  top: 55px;
+  display: inline-block;
 }
