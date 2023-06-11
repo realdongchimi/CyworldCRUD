@@ -12,12 +12,12 @@ var progress;
       audio.volume = 0.5;
       audio.play();
   
-      progress = setInterval(updateProgress, 100);
+      progress = setInterval(updateProgress2, 100);
     });
   
-    function updateProgress() {
+    function updateProgress2() {
       if (audio && audio.duration) {
-        const progressBar = document.querySelector(".progress-bar");
+        const progressBar = document.querySelector(".progress-bar2");
         progressBar.value = (audio.currentTime / audio.duration) * 100;
       }
     }
